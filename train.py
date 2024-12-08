@@ -16,7 +16,7 @@ def train():
     torch.cuda.empty_cache()
     comet_ml.init()
 
-    model.train(data='data/config.yaml',
+    model.train(data='datasets/data/config.yaml',
                 project=PROJECT_NAME,
                 epochs=1,
                 batch=30,
