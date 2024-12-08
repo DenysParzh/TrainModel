@@ -1,0 +1,11 @@
+names:
+  - Multicopter
+  - Wing
+  - XWing
+
+nc: 3
+
+path: .
+train: train/images
+val: val/images
+test: test/images
